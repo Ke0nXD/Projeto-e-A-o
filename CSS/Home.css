@@ -1,0 +1,109 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body header nav a{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px; 
+    margin-left: 10px;
+}
+
+img{
+    border-radius: 50px;
+    border: 1px solid #000000;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    background-color: #1a1f1e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do Conteúdo Principal */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image:url(../image/purple\ sky.jpg);
+}
+
+.centralizado {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.centralizado h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.centralizado p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1a1f1e
+    ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1a1f1e;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #1a1f1e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    border: 5px solid #ffffff;
+}
